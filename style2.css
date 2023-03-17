@@ -1,0 +1,125 @@
+body{
+ background-color:#FAFAFA ;
+ height: 30rem;
+}
+.firstpart{
+    border: 1px solid #8870ff;
+    height: 11rem;
+
+}
+.secoundpart{
+        border: 1px solid #8870ff;
+        height: 12rem;
+}
+input[type=radio]{
+    border-radius: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    appearance: none;
+}
+input[type=radio]{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border: 2px solid #8870ff;
+  }
+input[type=radio]:checked{
+    background-color: rgb(0, 132, 255);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+select{
+  border-bottom: 2px #8870ff solid;
+  border-right: 2px #8870ff solid;
+  border-top: transparent;
+  border-left: transparent;
+  height: 2rem;
+  border-radius: 10%;
+  background-color: #ffffff;
+}
+select:focus{
+     outline: none;
+}
+input[type=email]{
+    border-bottom: 2px #8870ff solid;
+    border-right: 2px #8870ff solid;
+    border-top: transparent;
+    border-left: transparent;
+    height: 2rem;
+    border-radius: 10%;
+    background-color: #ffffff;
+  }
+  input[type=email]:focus{
+    outline: none;
+  }
+  textarea{
+    border-bottom: 2px #8870ff solid;
+    border-right: 2px #8870ff solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 10%;
+    background-color: #ffffff;
+  }
+  textarea:focus{
+  outline: none;
+}
+  button[type=submit]{
+    border-bottom: 2px #8870ff solid;
+    border-right: 2px #8870ff solid;
+    border-top: transparent;
+    border-left: transparent;
+    height: 1.5rem;
+    border-radius: 10%;
+    background-color: #ffffff;
+  }
+.back-to-main-page{
+    position: absolute; 
+    bottom: 30px ; 
+    left: 50%; 
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 40%;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(131, 0, 238, 0.89);
+  }
+.endofpage{
+    position: relative;
+    top:5rem;
+     height: 5rem;
+     margin-bottom: 10px;
+     border: 1px rgba(121, 120, 120, 0.849) solid;
+     border-radius: 10%;
+    }
+.endofpage p{ 
+    padding: 10px;
+    margin: 0;
+
+}
+footer{
+     background-color: #8870ff;
+     position: relative;
+     top: 26rem;
+     width: 100%;
+     color: #FAFAFA;
+     text-align: center;
+     height: 6rem;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.back{
+  display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 40%;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(131, 0, 238, 0.89);
+}
