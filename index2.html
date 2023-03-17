@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <form>
+             <fieldset class="firstpart">
+           <legend>information :</legend> 
+           <p>Voulez-vous recevoir des notifications concernant l'actualite du departement ? :</p>
+           <input type="radio" name="notification"> <label for="">oui</label> <input type="radio" name="notification"> <label for="">non</label>
+           <p>Si oui,les recevoir plutot :</p> 
+           <select name="Notification-receving" class="notification-receving-select">
+            <option value="Tj">toujours</option>
+            <option value="pf">parfois</option>
+            <option value="f1">1 fois par semaine</option>
+
+           </select>
+            </fieldset>
+            <br>
+             <fieldset class="secoundpart">
+            <legend>Vos cordonnes</legend>     
+              <label for="">Votre Email:</label><br>
+              <input type="email" name="email" id="" placeholder="email">
+              <br>
+              <br>
+              <label for="">Vos commentaires: </label><br>
+              <textarea name="comment" id="" cols="21" rows="5"></textarea>
+             </fieldset>
+             <br>
+          <button type="submit"> Envoyer </button>
+           <button type="submit"> Annuler </button> <br>
+           <a href="index.html" class="back-to-main-page">Retour vers la page principal</a>   
+        </form>
+</body>
+</html>
